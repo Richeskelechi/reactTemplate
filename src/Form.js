@@ -54,7 +54,7 @@ export default function Form() {
         }).catch(function (error) {
             console.log(error.message);
             setSuccess("")
-            setErrors('Failed Try Again Later')
+            setErrors('Failed Try Again Later! Thank you!");')
             // setSubmitted(true);
             setError(true);
         });
